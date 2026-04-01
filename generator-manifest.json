@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "",
+  "description_recipe": "Setup transcoding of your VU+",
+  "history_source_dir": "TransCodingSetup",
+  "internal_package_name": "enigma2-plugin-systemplugins-transcodingsetup",
+  "module_dir_name": "TransCodingSetup",
+  "output_subdir": "TransCodingSetup",
+  "package_name": "enigma2-plugin-systemplugins-transcodingsetup",
+  "plugin_src_rel": "TransCodingSetup",
+  "python_package": "TransCodingSetup",
+  "rdepends_recipe": "virtual-transtreamproxy",
+  "replaces": "",
+  "repo_name": "TransCodingSetup",
+  "rrecommends": "",
+  "rreplaces": ""
+}
