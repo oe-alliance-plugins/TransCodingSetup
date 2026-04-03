@@ -21,7 +21,7 @@ try:
 	from Components.SystemInfo import BoxInfo
 	MACHINEBUILD = BoxInfo.getItem("model")
 	MODEL = BoxInfo.getItem("machinebuild")
-except:
+except ImportError:
 	from boxbranding import getMachineBuild, getBoxType
 	MACHINEBUILD = getMachineBuild()
 	MODEL = getBoxType()
@@ -219,7 +219,7 @@ class TranscodingSetupInit:
 				print("[TranscodingSetup] set failed. (%s > %s)" % (value, procPath))
 				return -1
 			return 0
-		except:
+		except Exception:
 			print("setConfig exception error (%s > %s)" % (value, procPath))
 			return -1
 		return 0
@@ -314,7 +314,7 @@ class TranscodingSetupInit:
 					if L[0] == '#':
 						newConfigData += L + '\n'
 						continue
-				except:
+				except Exception:
 					continue
 				LL = L.split()
 				if LL[5] == '/usr/bin/transtreamproxy':
@@ -328,7 +328,7 @@ class TranscodingSetupInit:
 			fd = open("/etc/inetd.conf", 'w')
 			fd.write(newConfigData)
 			fd.close()
-		except:
+		except Exception:
 			self.showMessage("Set port failed.", MessageBox.TYPE_ERROR)
 			return
 
