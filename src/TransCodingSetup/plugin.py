@@ -28,7 +28,7 @@ except:
 
 
 def getProcValue(procPath):
-#	print "[TranscodingSetup] get %s from %s" % (curValue, procPath)
+# print "[TranscodingSetup] get %s from %s" % (curValue, procPath)
 	fd = open(procPath, 'r')
 	curValue = fd.read().strip(' ').strip('\n')
 	fd.close()
