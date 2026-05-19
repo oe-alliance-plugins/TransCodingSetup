@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2-oe-alliance-plugins 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:01+0430\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2018-12-08 11:51+0300\n"
 "Last-Translator: mosad - مساعد الجعيد <abo-mishal@hotmail.com>\n"
 "Language-Team: mosad - مساعد الجعيد\n"
@@ -13,265 +13,353 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2\n"
 
+#: ../plugin.py:377
 #, python-format
 msgid "%s"
 msgstr "%s"
 
+#: ../plugin.py:125
 msgid "1.0"
 msgstr "1.0"
 
+#: ../plugin.py:100
 msgid "1080p"
 msgstr "دقة 1080 بكسل"
 
+#: ../plugin.py:98
 msgid "160x120"
 msgstr "160x120"
 
+#: ../plugin.py:105
 msgid "16x9"
 msgstr "16x9"
 
+#: ../plugin.py:125
 msgid "2.0"
 msgstr "2.0"
 
+#: ../plugin.py:126
 msgid "2.1"
 msgstr "2.1"
 
+#: ../plugin.py:126
 msgid "2.2"
 msgstr "2.2"
 
+#: ../plugin.py:376
 msgid "2nd transcoding and PIP are mutually exclusive."
 msgstr "بث قناتين عبر الشبكة و بث صورة داخل صورة بتبادل الخصوصي."
 
+#: ../plugin.py:126
 msgid "3.0"
 msgstr "3.0"
 
+#: ../plugin.py:126
 msgid "3.1"
 msgstr "3.1"
 
+#: ../plugin.py:127
 msgid "3.2"
 msgstr "3.2"
 
+#: ../plugin.py:98
 msgid "320x240"
 msgstr "320x240"
 
+#: ../plugin.py:127
 msgid "4.0"
 msgstr "4.0"
 
+#: ../plugin.py:127
 msgid "4.1"
 msgstr "4.1"
 
+#: ../plugin.py:127
 msgid "4.2"
 msgstr "4.2"
 
+#: ../plugin.py:98
 msgid "480p"
 msgstr "دقة 480 بكسل"
 
+#: ../plugin.py:105
 msgid "4x3"
 msgstr "4x3"
 
+#: ../plugin.py:128
 msgid "5.0"
 msgstr "5.0"
 
+#: ../plugin.py:98
 msgid "576p"
 msgstr "دقة 576 بكسل"
 
+#: ../plugin.py:98
 msgid "720p"
 msgstr "دقة 720 بكسل"
 
+#: ../plugin.py:382 ../plugin.py:548
 msgid "Advanced"
 msgstr "متقدم"
 
+#: ../plugin.py:463
 msgid "Aspect Ratio"
 msgstr "أبعاد الشاشة"
 
+#: ../plugin.py:466
 msgid "Audio codec"
 msgstr "ترميز الصوت"
 
+#: ../plugin.py:447
 msgid "Auto set Framerate / Bitrate"
 msgstr "ضبط عرض معدل الإطار/معدل البث"
 
+#: ../plugin.py:454
 msgid "Bitrate"
 msgstr "معدل البث"
 
+#: ../plugin.py:379
 msgid "Cancel"
 msgstr "إلغاء"
 
+#: ../plugin.py:381
 msgid "Default"
 msgstr "الإفتراضي"
 
+#: ../plugin.py:436
 msgid "Encoder"
 msgstr "مشفر"
 
+#: ../setup.xml
 msgid "Encoder 0: Aspect Ratio"
 msgstr "التشفير 0: أبعاد الشاشة"
 
+#: ../setup.xml
 msgid "Encoder 0: Audio codec"
 msgstr "التشفير 0: ترميز الصوت"
 
+#: ../setup.xml
 msgid "Encoder 0: Auto mode (Bitrate/Framerate)"
 msgstr "التشفير 0: وضع تلقائي (معدل البت/معدل الإطارات)"
 
+#: ../setup.xml
 msgid "Encoder 0: Bitrate"
 msgstr "التشفير 0: معدل البت"
 
+#: ../setup.xml
 msgid "Encoder 0: Framerate"
 msgstr "التشفير 0: معدل الإطارات"
 
+#: ../setup.xml
 msgid "Encoder 0: GOP Frame B"
 msgstr "التشفير 0: الإطار ب"
 
+#: ../setup.xml
 msgid "Encoder 0: GOP Frame P"
 msgstr "التشفير 0: الإطار ب"
 
+#: ../setup.xml
 msgid "Encoder 0: Level"
 msgstr "التشفير 0: مستوى"
 
+#: ../setup.xml
 msgid "Encoder 0: Profile"
 msgstr "التشفير 0: ملف التعريف"
 
+#: ../setup.xml
 msgid "Encoder 0: Resolution"
 msgstr "التشفير 0: دقة الفديو"
 
+#: ../setup.xml
 msgid "Encoder 0: Video codec"
 msgstr "التشفير 0:ترميز الفيديو"
 
+#: ../setup.xml
 msgid "Encoder 1: Aspect Ratio"
 msgstr "التشفير 1: أبعاد الشاشة"
 
+#: ../setup.xml
 msgid "Encoder 1: Audio codec"
 msgstr "التشفير 1: ترميز الصوت"
 
+#: ../setup.xml
 msgid "Encoder 1: Auto mode (Bitrate/Framerate)"
 msgstr "التشفير 1: وضع تلقائي (معدل البت/معدل الإطارات)"
 
+#: ../setup.xml
 msgid "Encoder 1: Bitrate"
 msgstr "التشفير 1: معدل البت"
 
+#: ../setup.xml
 msgid "Encoder 1: Framerate"
 msgstr "التشفير 1: معدل الإطارات"
 
+#: ../setup.xml
 msgid "Encoder 1: GOP Frame B"
 msgstr "التشفير 1: الإطار ب"
 
+#: ../setup.xml
 msgid "Encoder 1: GOP Frame P"
 msgstr "التشفير 1: الإطار ب"
 
+#: ../setup.xml
 msgid "Encoder 1: Level"
 msgstr "التشفير 1:المستوى"
 
+#: ../setup.xml
 msgid "Encoder 1: Profile"
 msgstr "التشفير 1: ملف التعريف"
 
+#: ../setup.xml
 msgid "Encoder 1: Resolution"
 msgstr "التشفير 1: دقة الفديو"
 
+#: ../setup.xml
 msgid "Encoder 1: Video codec"
 msgstr "التشفير 1: ترميز الفيديو"
 
+#: ../plugin.py:456
 msgid "Framerate"
 msgstr "معدل الإطار"
 
+#: ../plugin.py:472
 msgid "GOP Frame B"
 msgstr "إطار ب"
 
+#: ../plugin.py:475
 msgid "GOP Frame P"
 msgstr "إطار ب"
 
+#: ../plugin.py:478
 msgid "Level"
 msgstr "المستوى"
 
+#: ../plugin.py:503
 msgid "Max"
 msgstr "بحد أقصى"
 
+#: ../plugin.py:503
 msgid "Min"
 msgstr "بحد أدنى"
 
+#: ../plugin.py:545
 msgid "Normal"
 msgstr "طبيعي"
 
+#: ../plugin.py:94
 msgid "Off"
 msgstr "لا يعمل"
 
+#: ../plugin.py:94
 msgid "On"
 msgstr "تشغيل"
 
+#: ../plugin.py:430 ../setup.xml
 msgid "Port"
 msgstr "المنفذ"
 
+#: ../plugin.py:481
 msgid "Profile"
 msgstr "الملف الشخصي"
 
+#: ../plugin.py:536
 msgid "Really close without saving settings?"
 msgstr "هل تريد الإغلاق حقا بدون حفظ الإعدادات؟"
 
+#: ../plugin.py:460
 msgid "Resolution"
 msgstr "الدقة"
 
+#: ../plugin.py:380
 msgid "Save"
 msgstr "حفظ"
 
+#: ../plugin.py:426
 #, fuzzy
 msgid "This model does not support transcoding."
 msgstr "هذا الموديل البث عبر الشبكة غير مدعوم."
 
+#: ../plugin.py:370 ../plugin.py:583 ../setup.xml
 msgid "Transcoding Setup"
 msgstr "ضبط بث القنوات عبر الشبكة"
 
+#: ../plugin.py:374
 msgid "Transcoding and PIP are mutually exclusive."
 msgstr "بث عبر الشبكة وبثها صورة داخل صورة يكون التبادل خاص."
 
+#: ../plugin.py:582
 msgid "TranscodingSetup"
 msgstr "ضبط بث القنوات عبر الشبكة"
 
+#: ../plugin.py:469
 msgid "Video codec"
 msgstr "ترميز الفيديو"
 
+#: ../plugin.py:109
 msgid "aac"
 msgstr "ترميز الصوت الرقمي المزدوج"
 
+#: ../plugin.py:109
 msgid "aac+"
 msgstr "ترميز الصوت الرقمي المزدوج البلس"
 
+#: ../plugin.py:109
 msgid "aac+adts"
 msgstr "ترميز الصوت الرقمي المزدوج + ترميز الصوت المحيط"
 
+#: ../plugin.py:109
 msgid "aac+loas"
 msgstr "ترميز الصوت الرقمي المزدوج"
 
+#: ../plugin.py:109
 msgid "ac3"
 msgstr "ترميز الصوت الثلاثي الإفتراضي"
 
+#: ../plugin.py:132
 msgid "advancedsimple"
 msgstr "متقدم بسيط"
 
+#: ../plugin.py:78 ../plugin.py:80 ../plugin.py:82 ../plugin.py:87
+#: ../plugin.py:89 ../plugin.py:105
 msgid "auto"
 msgstr "تلقائي"
 
+#: ../plugin.py:132
 msgid "baseline"
 msgstr "الأساس"
 
+#: ../plugin.py:70
 msgid "disable"
 msgstr "تعطيل"
 
+#: ../plugin.py:70
 msgid "enable"
 msgstr "تفعيل"
 
+#: ../plugin.py:113
 msgid "h264"
 msgstr "تميز 264"
 
+#: ../plugin.py:128 ../plugin.py:132
 msgid "high"
 msgstr "مرتفع"
 
+#: ../plugin.py:128
 msgid "low"
 msgstr "منخفض"
 
+#: ../plugin.py:128 ../plugin.py:132
 msgid "main"
 msgstr "الرئيسي"
 
+#: ../plugin.py:109
 msgid "mp3"
 msgstr "mp3"
 
+#: ../plugin.py:109
 msgid "mpg"
 msgstr "mpg"
 
+#: ../plugin.py:132
 msgid "simple"
 msgstr "بسيط"
